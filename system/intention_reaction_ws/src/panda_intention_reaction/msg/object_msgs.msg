@@ -1,0 +1,6 @@
+int64 x
+int64 y
+int64 width
+int64 height
+int64 angle
+float64 time

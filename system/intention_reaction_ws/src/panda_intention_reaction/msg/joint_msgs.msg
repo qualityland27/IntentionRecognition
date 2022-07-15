@@ -1,0 +1,7 @@
+float64 panda_joint1
+float64 panda_joint2
+float64 panda_joint3
+float64 panda_joint4
+float64 panda_joint5
+float64 panda_joint6
+float64 panda_joint7

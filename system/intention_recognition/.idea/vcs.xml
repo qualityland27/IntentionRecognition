@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ros/pandarosbridge_ws/src/franka_panda_description" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ros/pandarosbridge_ws/src/franka_ros_interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ros/pandarosbridge_ws/src/rviz_visual_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tutorials/Body-Language-Decoder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mediapipeDemos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mediapipeDemos/mediapipe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sktime" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+version: '3.9'
+services: 
+  app: 
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    devices:
+       - /dev/video0:/dev/video0
+       - /dev/video1:/dev/video1
+       - /dev/video2:/dev/video2
+       - /dev/video3:/dev/video3
+       - /dev/video4:/dev/video4
+       - /dev/video5:/dev/video5
+       - /dev/video6:/dev/video6
+       - /dev/video7:/dev/video7
+    privileged: true
+    environment:
+      - DISPLAY=unix$DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority:rw
+    network_mode: host
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: /bin/sh -c "while sleep 1000; do :; done"

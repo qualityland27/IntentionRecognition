@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="panda_intention_reaction" type="PandaIntentionReaction.py" name="PandaIntentionReaction" />
+
+	<include file="$(find panda_intention_reaction)/camera_calibration/camera_pose.launch" />	
+</launch>
+
+

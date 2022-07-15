@@ -1,0 +1,7 @@
+float64 width
+float64 epsilon_inner
+float64 epsilon_outer
+float64 speed
+float64 force
+---
+string answer

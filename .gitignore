@@ -1,0 +1,4 @@
+# ignore ros_ws folder 
+system/intention_reaction_ws/build/
+system/intention_reaction_ws/devel/
+system/intention_reaction_ws/logs/
